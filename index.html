@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BODRIN Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="page-bg"></div>
+
+    <header class="navbar container">
+        <div class="brand">BODRIN</div>
+        <nav class="nav-links">
+            <a class="active" href="#">Главная</a>
+            <a href="#menu">Меню</a>
+            <a href="#about">О нас</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#promo">Акции</a>
+        </nav>
+        <div class="nav-actions">
+            <a class="btn btn-ghost" href="#order">Войти</a>
+            <a class="btn btn-primary" href="#order">Сделать заказ</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container" id="top">
+            <div class="hero-copy">
+                <p class="eyebrow">BODRIN COFFEE</p>
+                <h1>Открой для себя превосходный вкус в каждом глотке!</h1>
+                <p class="lede">
+                    У нас кофе — не просто напиток, а искусство. Приглашаем вас на уникальное кулинарное путешествие,
+                    где каждый глоток — встреча с идеальным вкусом.
+                </p>
+                <div class="cta-row">
+                    <a class="btn btn-primary" href="#menu">Выбрать кофе</a>
+                    <a class="ghost-link" href="#menu">Перейти к меню</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="splash"></div>
+                <div class="cup cup-vanilla">
+                    <span class="cup-label">BODRIN</span>
+                </div>
+                <div class="cup cup-mocha"></div>
+            </div>
+        </section>
+
+        <section class="menu container" id="menu">
+            <div class="section-head">
+                <p class="eyebrow">Меню</p>
+                <h2>Популярные напитки</h2>
+            </div>
+            <div class="cards">
+                <article class="card">
+                    <div class="card-head">
+                        <span class="pill pill-amber">4.9</span>
+                        <span class="pill pill-glass">120 мл</span>
+                    </div>
+                    <div class="mini-cup mini-cream"></div>
+                    <h3>Cappuccino</h3>
+                    <p>30% эспрессо, 40% молочная пена и 40% молочной кофейной жидкости.</p>
+                    <div class="card-foot">
+                        <span class="price">120 р.</span>
+                        <button class="icon-circle" aria-label="Добавить капучино">+</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-head">
+                        <span class="pill pill-amber">5.0</span>
+                        <span class="pill pill-glass">200 мл</span>
+                    </div>
+                    <div class="mini-cup mini-mint"></div>
+                    <h3>Latte</h3>
+                    <p>30% эспрессо и 70% молочная кофейная жидкость с густой пеной.</p>
+                    <div class="card-foot">
+                        <span class="price">140 р.</span>
+                        <button class="icon-circle" aria-label="Добавить латте">+</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-head">
+                        <span class="pill pill-amber">4.7</span>
+                        <span class="pill pill-glass">180 мл</span>
+                    </div>
+                    <div class="mini-cup mini-dark"></div>
+                    <h3>Mocha</h3>
+                    <p>20% эспрессо, 50% горячее молоко и 30% горячего шоколада с нежной пенкой.</p>
+                    <div class="card-foot">
+                        <span class="price">140 р.</span>
+                        <button class="icon-circle" aria-label="Добавить мокко">+</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about container" id="about">
+            <div class="section-head center">
+                <p class="eyebrow">BODRIN это</p>
+                <h2>Кофейня, где ценят вкус и атмосферу</h2>
+            </div>
+            <div class="about-grid">
+                <div class="feature" data-number="1">
+                    <h3>Высокое качество зерен</h3>
+                    <p>Отбираем зерно, уделяем внимание каждой детали, чтобы вы ощущали исключительное качество в каждой
+                        чашке.</p>
+                </div>
+                <div class="feature" data-number="2">
+                    <h3>Атмосфера вдохновения и уюта</h3>
+                    <p>Уютное пространство с заботливым сервисом, где можно расслабиться и наслаждаться беседой.</p>
+                </div>
+                <div class="feature" data-number="3">
+                    <h3>Индивидуальный подход</h3>
+                    <p>Подбираем напитки под ваши предпочтения, делая кофе персонализированным и особенным.</p>
+                </div>
+                <div class="feature" data-number="4">
+                    <h3>Профессиональная команда</h3>
+                    <p>Опытные бариста раскрывают все грани кофейного вкуса и делятся своим мастерством.</p>
+                </div>
+            </div>
+            <div class="about-cta">
+                <div class="cup cup-dark">
+                    <span class="cup-label">BODRIN</span>
+                </div>
+                <a class="btn btn-primary" href="#order">Заказать</a>
+            </div>
+        </section>
+
+        <section class="quiz container" id="order">
+            <div class="quiz-card">
+                <div>
+                    <p class="eyebrow">Подбор напитка</p>
+                    <h3>Узнай какой кофе подходит тебе больше всего</h3>
+                    <p>Пройди короткий тест, чтобы получить персональные рекомендации от наших бариста.</p>
+                </div>
+                <a class="btn btn-primary" href="#">Пройти тест</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <p>Новости кофе и эфиры в нашем instagram.</p>
+    </footer>
+</body>
+
+</html>
